@@ -1,7 +1,7 @@
 
 # ETC Algorithm
 Features:
-1. Simple uncontrained alg.
+1. Simple unstructured alg.
 2. For a known suboptimatility gap & time horizon, we can get logarthmic regret.
 
 Limitations:
