@@ -63,3 +63,19 @@ $$ -->
 
 <div align="center"><img style="background: white;" src="../svg/LLZvzwGrfa.svg"></div>
 
+
+
+
+Key background:
+
+Concentration -  How likely estimate is close to true mean?
+
+ie. Probablity that estimate is away from true mean has a tail bound given by below
+
+$$
+P(\mu^h >= \mu + \sqrt((2log(1/\delta))/t)) \leq \delta
+$$
+
+$$
+P(\mu^h >= \mu - \sqrt((2log(1/\delta))/t)) \leq \delta
+$$
