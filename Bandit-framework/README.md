@@ -43,9 +43,11 @@ Regret Decomposition:
 
 Suboptimality gap:
 
-<!-- $$\delta_a(\mu) = \mu^*(a) - \mu(a) $$ --> 
+ <!-- $$
+ \delta_a(\mu) = \mu^*(a) - \mu(a) 
+ $$ --> 
 
-<div align="center"><img style="background: white;" src="../svg/qWDSzjmp0M.svg"></div>
+<div align="center"><img style="background: white;" src="../svg/5g4z0t3LFW.svg"></div>
 
 Time each arm played
 <!-- $$
