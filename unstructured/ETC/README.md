@@ -2,7 +2,8 @@
 # ETC Algorithm
 Features:
 1. Simple unstructured alg.
-2. For a known suboptimatility gap & time horizon, we can get logarthmic regret.
+2. For a known suboptimatility gap & time horizon, we can get sublinear regret.
+
 
 Limitations:
 1. Dependence of suboptimality gap and time horizon in tuning the param -m.
@@ -15,6 +16,13 @@ $$ -->
 <div align="center"><img style="background: white;" src="../../svg/qSmB4eOZr7.svg"></div> 
 
 Inversely proportional to \delta - if delta is too small - we need large m
+
+Intuition - For a given horizon, we explore until we reach sufficient guarantee on the best arm - trade-off between the cost and the gain of more exploration. During commit - we stick to the best arm.
+
+
+
+# Doubling Trick: 
+If Time horizon is unknown, we can start with T , double the horizon restarting the algorithm by retuning paramter m each time. The regret will slow down compared to pure ETC.
 
 # Regret analysis
 
