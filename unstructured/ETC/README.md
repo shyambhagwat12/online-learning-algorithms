@@ -16,6 +16,7 @@ $$ -->
 <div align="center"><img style="background: white;" src="../../svg/qSmB4eOZr7.svg"></div> 
 
 Inversely proportional to \delta - if delta is too small - we need large m
+Number of samples scales logarithmically
 
 Intuition - For a given horizon, we explore until we reach sufficient guarantee on the best arm - trade-off between the cost and the gain of more exploration. During commit - we stick to the best arm.
 
