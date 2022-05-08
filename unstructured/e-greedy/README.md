@@ -14,22 +14,28 @@ Limitations:
 Intuition - log n dependence observed in paramter m of ETC algorithm is eliminated by choice of ϵ_t. As in Harmonic series - the explore phase diminishes with time eventually requring log n samples.
 
 
-$$
+<!-- $$
 \epsilon = min(1, ck/t\delta_{min}^2)
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="../../svg/MEGzLSsYyE.svg"></div>
 
 
 
 # Regret analysis
 
-$$
+<!-- $$
 R_n = C \sum_{i=1}^k (\delta_i + (\delta_i/\delta_{min}^2) ln .max(e,n\delta_{min}^2/k))
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="../../svg/CqcEImm7n5.svg"></div>
 
 For 2 arms, nice logarithmic regret
-$$
+<!-- $$
 Rn \leq C + ln(n)
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="../../svg/IQVGVZIsWR.svg"></div>
 
 However for more than 2 arms , R_n as seen in the equation would give much higher regret (Intuition - alg spend more time on unlikely arms , increasing the regret)
 
