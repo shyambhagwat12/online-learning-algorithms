@@ -47,7 +47,10 @@ $$ -->
 
 Subgaussian calculus Key property:
 
-Addition of subgaussian random variables: $$1/\sqrt(m) subgaussian$$
+Addition of subgaussian random variables: 
+
+
+$$1/\sqrt(m) subgaussian$$
 
 <!-- $$
 P(x > \epsilon) <= e^(\epsilon^2/2(1/\sqrt(m)))   
