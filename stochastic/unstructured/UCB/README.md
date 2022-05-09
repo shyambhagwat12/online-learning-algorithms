@@ -35,6 +35,8 @@ Intuition - Challenge of dynamic horizon is to find an unbiased estimator withou
 
 # Regret analysis
 
+## Finite horizon:
+
 Instance dependent.
 <!-- $$
 R_n \leq 3\sum_{j=1}^k\delta_j + \sum 16*ln(n)/\delta_j^2
@@ -60,3 +62,12 @@ $$ -->
 <div align="center"><img style="background: white;" src="../../svg/vstScHBY6X.svg"></div>
 
 
+## InFinite horizon:
+
+$$
+f(t) = 1+ tln^2(t)
+$$ 
+
+$$
+R_n \leq C \sum_{\delta_j >0} (\delta_j + (ln(n)/\delta_j))
+$$

@@ -16,6 +16,10 @@ x_t - Reward at time t
 
 <div align="center"><img style="background: white;" src=".\resultsSummary.png"></div>
 
+# Model
+
+1. Stochastic - Successive rewards from random selection is from same distribution , but independent. Also known as IID
+2. Adversarial -  Non stochastic/random. Adversary chooses reward.
 
 # Setting:
 
