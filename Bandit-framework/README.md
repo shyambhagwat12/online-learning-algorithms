@@ -22,15 +22,18 @@ y_t - Loss at time t
 
 1. Stochastic - Successive rewards from random selection is from same distribution , but independent. Also known as IID. (Intuition - Power pf Random sampling and as time progresses - find the best arm using stochastic efficient models)
 
-2. Adversarial -  Non stochastic/non random. Adversary chooses reward based on the players policy or probability distribution of arms. (Intuition - Adversary chooses reward at each time, as as time progresses , go as close to the best arm in hindsight based on random selection (player doesnt know about the reward - key point/power of randomness ). 
+2. Adversarial -  Non stochastic/non random. Adversary chooses reward based on the players policy or probability distribution of arms. (Intuition - Adversary chooses reward at each time, as as time progresses , go as close to the best arm in hindsight based on random selection (player doesnt know about the reward for  other arms - key point/power of randomness). 
 
 
 # Setting:
 
 1. Unstructured - Arms donot share info. μ - joint distribution
-2. Structured - Arms leak info. (Contextual bandit)
 
+Examples : UCB, Explore - exploit etc
 
+2. Structured - Arms leak info. 
+
+Examples: Contextual bandits, Linear bandits, Combinatorial bandits
 
 # Types 
 1. Frequentist

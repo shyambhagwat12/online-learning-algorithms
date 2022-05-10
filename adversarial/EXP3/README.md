@@ -1,7 +1,7 @@
 
 # EXP3 Algorithm
 Features:
-1) Adversarial setting algorithm which runs in two phases
+1) Adversarial setting algorithm which runs in two phases to get regret in terms of best arm in hindsight.
 2) Phase 1 - Exponentially boost arms using the idea that counterfactual information of all arms will help in choosing best arm
 3) Phase 2 - Use Importance weighted estimator(Inverse proportionality trick) to come up with unbiased estimator for all the arms
 
