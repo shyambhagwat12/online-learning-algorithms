@@ -7,22 +7,23 @@ Book - Tor Lattimore and Csaba Szepesvari
 
 # Background on Probability and concentrations.
 
-Tutorial:
+## Concentration Tutorial:
 
 https://banditalgs.com/2018/02/09/bandit-tutorial-slides-and-update-on-book/
 
+## Power of randomness 
 Beautiful video explaining monte carlo simulation and power of randomness and unbiased estimators.
 
 https://www.youtube.com/watch?v=7ESK5SaP-bc
 
-Bounds - Markhov,Chebyshev,Chernoffs,limit theoarm:
+## Bounds - Markhov,Chebyshev,Chernoffs,limit theorem:
 
 https://www.youtube.com/watch?v=Ij3f__U-iH8
 
 Entropy:
 https://www.youtube.com/watch?v=YtebGVx-Fxw
 
-Key background:
+## Useful lemmas on Subgaussian:
 
 Subgaussian random variables are useful in algorithms , keeps computation simple. Bounds are similar to properties of Gaussian random. 
 
@@ -60,3 +61,19 @@ P(x > \epsilon) <= e^(\epsilon^2/2(1/\sqrt(m)))
 $$ --> 
 
 <div align="center"><img style="background: white;" src="svg/z6GmlgTQeg.svg"></div>
+
+
+## For adversarial settings:
+
+Experts/weighted majority algorithm
+
+Excellent General Expert problem comparing the randomized weighted majority  from Prof C seshadri , UC Santa Cruz - https://www.youtube.com/watch?v=Lz8xCaDjloY
+)
+
+## Causal Inference,Confounders, Inverse propensity tricks
+
+Wonderful blog post which talks about Causal inference, confounding/biases and the Inverse Propensity Score trick/weighting principles to eliminate confounders:
+
+https://www.rebeccabarter.com/blog/2017-07-05-confounding/
+
+https://www.rebeccabarter.com/blog/2017-07-05-ip-weighting/
