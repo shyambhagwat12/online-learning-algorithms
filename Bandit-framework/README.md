@@ -20,8 +20,14 @@ y_t - Loss at time t
 
 # Model
 
-1. Stochastic - Successive rewards from random selection is from same distribution , but independent. Also known as IID
-2. Adversarial -  Non stochastic/non random. Adversary chooses reward based on the players policy or probability distribution of arms.
+1. Stochastic - Successive rewards from random selection is from same distribution , but independent. Also known as IID. (Intuition - Power pf Random sampling and as time progresses - find the best arm using stochastic efficient models)
+
+2. Adversarial -  Non stochastic/non random. Adversary chooses reward based on the players policy or probability distribution of arms. (Intuition - Adversary chooses reward at each time, as as time progresses , go as close to the best arm in hindsight based on random selection (player doesnt know about the reward - key point/power of randomness ). 
+
+Experts/weighted majority algorithm
+
+Excellent General Expert problem comparing the randomized weighted majority  from Prof C sehadri , UCSC - https://www.youtube.com/watch?v=Lz8xCaDjloY
+)
 
 # Setting:
 
