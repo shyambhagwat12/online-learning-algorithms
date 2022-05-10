@@ -24,10 +24,6 @@ y_t - Loss at time t
 
 2. Adversarial -  Non stochastic/non random. Adversary chooses reward based on the players policy or probability distribution of arms. (Intuition - Adversary chooses reward at each time, as as time progresses , go as close to the best arm in hindsight based on random selection (player doesnt know about the reward - key point/power of randomness ). 
 
-Experts/weighted majority algorithm
-
-Excellent General Expert problem comparing the randomized weighted majority  from Prof C sehadri , UCSC - https://www.youtube.com/watch?v=Lz8xCaDjloY
-)
 
 # Setting:
 
