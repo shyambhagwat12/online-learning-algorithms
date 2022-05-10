@@ -60,4 +60,6 @@ $$ -->
 
 # Regret analysis
 
-
+$$
+R_n \leq C d\sqrt{n} ln(nL)
+$$
