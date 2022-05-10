@@ -8,21 +8,29 @@ Features:
 
 Update step:
 
-$$
+<!-- $$
 P_{tj} = e^{-\eta *R_tj} / \sum_{i=1}^k e^{-\eta*R_tj,k}
-$$
+$$ --> 
 
-$$
+<div align="center"><img style="background: white;" src="../../svg/inEhvw2D7B.svg"></div>
+
+<!-- $$
 R_{tj} = R_{t-1,j} + X_{tj}
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="../../svg/huTQVb1eiO.svg"></div>
 # Parameters
-$$
+<!-- $$
 \eta = \sqrt(ln(k)/nk)
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="../../svg/JKd7YjaAEd.svg"></div>
 
 
 # Regret analysis
-$$
+<!-- $$
 R_n(\pi,r) = 2*\sqrt(nk*ln(k))
-$$
+$$ --> 
+
+<div align="center"><img style="background: white;" src="../../svg/Sh0vQnClIG.svg"></div>
 
