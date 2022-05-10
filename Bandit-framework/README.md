@@ -13,13 +13,15 @@ A - Action/arm
 
 x_t - Reward at time t
 
+y_t - Loss at time t
+
 
 <div align="center"><img style="background: white;" src=".\resultsSummary.png"></div>
 
 # Model
 
 1. Stochastic - Successive rewards from random selection is from same distribution , but independent. Also known as IID
-2. Adversarial -  Non stochastic/random. Adversary chooses reward.
+2. Adversarial -  Non stochastic/non random. Adversary chooses reward based on the players policy or probability distribution of arms.
 
 # Setting:
 
@@ -28,11 +30,14 @@ x_t - Reward at time t
 
 
 
-
 # Types 
 1. Frequentist
 2. Bayesian (prior knowledge)
 
+
+# Feedback
+1. Bandit Feedback: Player only gets to see the reward of the arm played
+2. Counterfactual/Full feedback : player gets to see the reward of all the arms.
 
 # Regret
 <!-- $$

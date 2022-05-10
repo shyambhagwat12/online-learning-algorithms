@@ -17,6 +17,10 @@ $$
 Intuition - Finds the optimistic best sample with higher probability whose KL divergence is bounded inversly proportional to number of samples(As samples are large, confidence increse, samples less, confidence small)
 
 
+Entropy:
+https://www.youtube.com/watch?v=YtebGVx-Fxw
+
+
 
 
 # Regret analysis

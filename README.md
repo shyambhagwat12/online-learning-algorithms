@@ -19,6 +19,8 @@ Bounds - Markhov,Chebyshev,Chernoffs,limit theoarm:
 
 https://www.youtube.com/watch?v=Ij3f__U-iH8
 
+Entropy:
+https://www.youtube.com/watch?v=YtebGVx-Fxw
 
 Key background:
 
