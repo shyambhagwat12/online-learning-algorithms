@@ -15,6 +15,8 @@ x_t - Reward at time t
 
 y_t - Loss at time t
 
+c_t - Contextual information at time t
+
 
 <div align="center"><img style="background: white;" src=".\resultsSummary.png"></div>
 
