@@ -15,7 +15,7 @@ UCB index function (Finite horizon)
 U_j(t-1,\delta) = \mu_j(t-1) + \sqrt(2ln(1/\delta)/T_j(t-1))
 $$ --> 
 
-<div align="center"><img style="background: white;" src="../../svg/RA4n7eA8X8.svg"></div>
+<div align="center"><img style="background: white;" src="../../../svg/RA4n7eA8X8.svg"></div>
 
 UCB index function (InFinite horizon)
 <!-- $$
@@ -25,7 +25,7 @@ $$
 f(t) = 1+ tln^2(t)
 $$ --> 
 
-<div align="center"><img style="background: white;" src="../../svg/ZkbSi3qfBd.svg"></div>
+<div align="center"><img style="background: white;" src="../../../svg/ZkbSi3qfBd.svg"></div>
 
 # Parameters
 
@@ -42,7 +42,7 @@ Instance dependent.
 R_n \leq 3\sum_{j=1}^k\delta_j + \sum 16*ln(n)/\delta_j^2
 $$ --> 
 
-<div align="center"><img style="background: white;" src="../../svg/WJ4oEqhVFb.svg"></div>
+<div align="center"><img style="background: white;" src="../../../svg/WJ4oEqhVFb.svg"></div>
 
 Intuition
 
@@ -59,7 +59,7 @@ Instance indepdent.
 R_n \leq 3\sum_{j=1}^k\delta_j + 8\sqrt( nk*ln(n))
 $$ --> 
 
-<div align="center"><img style="background: white;" src="../../svg/vstScHBY6X.svg"></div>
+<div align="center"><img style="background: white;" src="../../../svg/vstScHBY6X.svg"></div>
 
 
 ## InFinite horizon:
